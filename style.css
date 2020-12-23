@@ -34,6 +34,7 @@ ol > li:hover > #tabela
 {
 	display: none;
 	background-color: lightgray;
+	margin-top: 20px;
 }
 
 ol > li > #tabela > ul > li
@@ -41,9 +42,17 @@ ol > li > #tabela > ul > li
 	color: black;
 	font-size: 20px;
 	list-style-type: none;
+	margin-left: -40px;
+	line-height: 200%;
 } 
 
 ol > li > #tabela > ul > li:hover
 {
 	background-color: #a8a8a8;
+}
+
+ol > li > #tabela > ul > li > a
+{
+	color: black;
+	text-decoration: none;
 }
